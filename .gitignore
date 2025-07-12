@@ -1,0 +1,6 @@
+*
+!.gitignore
+!.SRCINFO
+!classisland.desktop
+!classisland.sh
+!PKGBUILD

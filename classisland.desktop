@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ClassIsland
+MimeType=application/x-classisland;
+Icon=classisland
+Comment[en_GB]=Class schedule displaying tool for interactive whiteboards in classrooms
+Comment[zh_CN]=适用于班级多媒体屏幕的课表信息显示工具
+Exec=/usr/bin/classisland
+Categories=Education;
