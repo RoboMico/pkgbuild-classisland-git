@@ -45,7 +45,7 @@ package() {
     mkdir -p "${pkgdir}/opt" "${pkgdir}/usr/bin"
     cp -r "${srcdir}/ClassIsland/ClassIsland.Desktop/_output/classisland" "${pkgdir}/opt"
     printf "deb" > "${pkgdir}/opt/classisland/PackageType"
-    install -Dm644 "${srcdir}/ClassIsland/ClassIsland/Assets/FreedesktopIcons/AppLogo@128w.png" "${pkgdir}/usr/share/pixmaps/${_pkgname}.png"
+    install -Dm644 "${srcdir}/ClassIsland/ClassIsland/Assets/AppLogo_AppLogo.svg" "${pkgdir}/usr/share/pixmaps/${_pkgname}.svg"
     install -Dm644 "${srcdir}/ClassIsland/ClassIsland/Assets/ShortcutTemplates/cn.classisland.app.desktop" "${pkgdir}/usr/share/applications/cn.classisland.app.desktop"
     sed -i "s/{0}/${pkgver}/" "${pkgdir}/usr/share/applications/cn.classisland.app.desktop"
     sed -i 's/{1}/\/usr\/bin\/classisland/' "${pkgdir}/usr/share/applications/cn.classisland.app.desktop"
